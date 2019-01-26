@@ -1,0 +1,9 @@
+com\learn\hibernate\entity\inheritance\Respository.class
+com\learn\hibernate\entity\inheritance\MessagingProfileCfg.class
+com\learn\mangodbHibernatecon\HibernateUtil.class
+com\learn\hibernate\entity\inheritance\App.class
+com\learn\hibernate\entity\inheritance\MessagingConfigEntity.class
+com\learn\hibernate\entity\inheritance\MessagingEnablerCfg.class
+com\learn\mangodbHibernatecon\App.class
+com\learn\mangodbHibernatecon\Testing.class
+com\learn\hibernate\entity\inheritance\MessagingSessionCfg.class
