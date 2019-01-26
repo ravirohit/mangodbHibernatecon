@@ -16,6 +16,7 @@ public class App
     	//saveUpdate(c);
     	System.out.println("getting enabler");
     	MessagingEnablerCfg messagingEnablerCfg = repo.getMessagingEnablerCfg();
+    	System.out.println(messagingEnablerCfg.getServiceName());
     	repo.clean();
     	  
     }

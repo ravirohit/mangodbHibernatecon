@@ -15,16 +15,18 @@
   </properties>
 
   <dependencies>
-     <dependency>
-                <groupId>org.hibernate</groupId>
-                <artifactId>hibernate-core</artifactId>
-                <version>5.0.0.CR1</version>
-        </dependency>
+     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.1.4.Final</version>
+</dependency>
+
 
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>4.3.1.Final</version>
+            <version>5.1.4.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
 <dependency>
@@ -35,11 +37,13 @@
         
 
                                  <!-- Hibernate OGM dependency -->
-  <dependency>
-        <groupId>org.hibernate.ogm</groupId>
-        <artifactId>hibernate-ogm-core</artifactId>
-        <version>5.0.0.CR1</version>
-    </dependency>
+ <!-- https://mvnrepository.com/artifact/org.hibernate.ogm/hibernate-ogm-core -->
+<dependency>
+    <groupId>org.hibernate.ogm</groupId>
+    <artifactId>hibernate-ogm-core</artifactId>
+    <version>5.2.0.Final</version>
+</dependency>
+
                        <!-- standard APIs dependencies - provided in a Java EE container -->
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
@@ -60,21 +64,23 @@
                 <version>4.16.4.Final</version>
             </dependency>
 
-          <dependency>
-                <groupId>org.hibernate.ogm</groupId>
-                <artifactId>hibernate-ogm-mongodb</artifactId>
-                <version>5.0.0.CR1</version>
-            </dependency>
+          <!-- https://mvnrepository.com/artifact/org.hibernate.ogm/hibernate-ogm-mongodb -->
+<dependency>
+    <groupId>org.hibernate.ogm</groupId>
+    <artifactId>hibernate-ogm-mongodb</artifactId>
+    <version>5.2.0.Final</version>
+</dependency>
+
             <dependency>
                     <groupId>org.hibernate.common</groupId>
                     <artifactId>hibernate-commons-annotations</artifactId>
                     <version>5.0.1.Final</version>
             </dependency>
-            <dependency>
+           <!--  <dependency>
                     <groupId>org.hibernate.ogm</groupId>
                     <artifactId>hibernate-ogm-infinispan</artifactId>
-                    <version>5.0.0.Alpha1</version>
-            </dependency>
+                    <version>5.0.0.final</version>
+            </dependency> -->
              <dependency>
                         <groupId>org.hibernate</groupId>
                         <artifactId>hibernate-search-orm</artifactId>

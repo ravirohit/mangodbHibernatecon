@@ -26,8 +26,11 @@ public class HibernateUtil {
 					config.addAnnotatedClass(com.learn.hibernate.entity.inheritance.MessagingEnablerCfg.class);
 					config.addAnnotatedClass(com.learn.hibernate.entity.inheritance.MessagingProfileCfg.class);
 					config.addAnnotatedClass(com.learn.hibernate.entity.inheritance.MessagingSessionCfg.class);
+					System.out.println("session factory");
 					SERVICE_REGISTRY = new StandardServiceRegistryBuilder().applySettings(config.getProperties()).build();
+					System.out.println("session registry:"+SERVICE_REGISTRY);
 					SESSION_FACTORY = config.buildSessionFactory(SERVICE_REGISTRY);
+					System.out.println("session factory:"+SESSION_FACTORY);
 				}
 			}
 		}

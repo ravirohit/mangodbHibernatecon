@@ -31,9 +31,10 @@ public class Respository extends HibernateUtil{
 	} 
 	
 	public MessagingEnablerCfg getMessagingEnablerCfg(){
+
 		Session session = getSession();
 		System.out.println("inside repo for read connnector");
-		String queryStr = "From MessagingEnablerCfg";
+		String queryStr = "From MessagingEnablerCfg where serviceName = 'serviceName5'";
 		Query query = session.createQuery(queryStr);
 		List<MessagingEnablerCfg> list = query.list();
 		session.close();
